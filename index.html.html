@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Misaykasana | Corporate Desk Yoga & Workplace Wellness</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google Fonts: Great Vibes & Inter -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Italianno&family=Raleway:ital,wght@0,100..900;1,100..900&family=Tirra:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>       
+body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.7;
+            color: #2b2b2b;
+            background-color: #fdf7f9;
+        }
+
+        header {
+            /* position: relative; */
+            background: linear-gradient(135deg, #7ed6df, #c8a2c8);
+            color: white;
+            text-align: center;
+            padding: 50px 20px 50px;
+            overflow: visible;
+                height: auto;
+                }
+
+        .header-content {
+            /* position: relative; */
+            /* border: solid red; */
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+       
+        }
+
+        .header-lotus {
+            width: 100px;
+            height: 50px;
+            opacity: 0.85;
+            /* margin-bottom: 25px; */
+            /* border: solid blue; */
+        }
+        .header-lotus>img{
+             width: 100%;
+  height: 100%;
+  object-fit: contain;
+        }
+        header h1 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 2em;
+            font-weight: 400;
+            letter-spacing: 1px;
+            margin: 0 0 10px 0;
+            color: white;
+        }
+
+        header p {
+            font-size: 1.1em;
+            font-weight: 300;
+            letter-spacing: 1px;
+            margin: 0;
+            color: white;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 80px auto;
+            padding: 0 40px;
+            
+        }
+        /* .container>section>h2{
+            text-align: center;
+        } */
+        .corporate-desk{
+            display: flex;
+            height: auto;
+            width: 100%;
+            /* border: solid yellow; */
+            gap: 30px;
+         margin-top: 40px;
+            align-items: center;
+        }
+        .yoga1{
+            height: 250px;
+            /* border: solid pink; */
+            width: 50%;
+           border-radius: 30px;
+             box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+        }
+        .yoga1>img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+             border-radius: 30px;
+             box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+        }
+        .corporate-text{            
+            width: 50%;
+            /* border: solid purple; */
+        }
+        .corporate-text>p{
+            font-size: 12px;
+        }
+        h2 {
+            font-weight: 500;
+            font-size: 1.6em;
+            color: #5e4b8b;
+            margin-bottom: 20px;
+            letter-spacing: 0.5px;
+        }
+
+        section {
+            margin-bottom: 90px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+
+        .card {
+            background: white;
+            padding: 35px;
+            border-radius: 14px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+            transition: transform 0.3s ease;
+            border-top: 3px solid #7ed6df;
+            
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            font-weight: 500;
+            font-size: 16px;
+            color: #c870a8;
+            margin-bottom: 10px;
+        }
+        .card p{
+            font-size: 12px;
+        }
+        .cta {
+            background: linear-gradient(135deg, #f8cdda, #7ed6df);
+            text-align: center;
+            padding: 80px 20px;
+            border-radius: 16px;
+        }
+
+        .cta h2 {
+            color: #2b2b2b;
+        }
+
+        .cta a {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 16px 38px;
+            background: #5e4b8b;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            border-radius: 40px;
+            letter-spacing: 1px;
+            transition: 0.3s ease;
+        }
+
+        .cta a:hover {
+            background: #4b3a75;
+        }
+            .yoga2img{
+                
+                height: 200px;
+                background-image: url(./assets/yoga2.png);
+                background-size: cover;
+                background-position: left;
+                 display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+            }
+          
+ .yoga2img > *{
+    position: relative;
+    z-index: 2;
+   
+}
+.yoga2img>p{
+    color: #F4EEEE;
+     font-family: "Raleway", sans-serif;
+     font-size: 14px;
+}
+        footer {
+            text-align: center;
+            padding: 40px;
+            background: #f3e8f5;
+            font-size: 0.85em;
+            letter-spacing: 1px;
+            color: #5e4b8b;
+        }
+
+        @media (max-width: 768px) {
+            .header-lotus {
+                width: 140px;
+                margin-bottom: 18px;
+            }
+
+            header h1 {
+                font-size: 3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-lotus">
+                 <img src="./assets/lotus-pink.png" alt="lotus-pink"  />
+            </div>
+           
+            <h1>Misaykasana</h1>
+            <p>Holistic & Practical Workplace Wellness</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Corporate Desk Yoga for Modern Workspaces</h2>
+            <div class="corporate-desk">
+                <div class="yoga1"><img src="./assets/yogaimg.png"/></div>
+                <div class="corporate-text">
+                      <p>
+                     Misaykasana offers 60, 90, or 120-minute on-site and virtual desk yoga sessions designed for high-performing
+                     corporate teams. Based in New Jersey and serving NYC and surrounding areas, sessions
+                     blend grounded wellness with practical application for today’s office environment.
+                    </p>
+                    <p>
+                      Each session includes full-body movement, posture refinement, guided eye exercises to
+                         reduce screen fatigue, and relaxation techniques that employees can integrate seamlessly
+                      into their daily workflow.
+                    </p>
+                </div>
+            </div>
+          
+        </section>
+
+        <section>
+            <h2>What Employees Gain</h2>
+            <div class="services">
+                <div class="card">
+                    <h3>Physical Relief</h3>
+                    <p>Release accumulated tension in the neck, shoulders, and lower back caused by prolonged sitting.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Mental Clarity</h3>
+                    <p>Structured breathing and mindfulness techniques to improve focus and reduce stress.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Sustainable Tools</h3>
+                    <p>Refined yet simple techniques employees can use daily at their desks.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Bring Desk Yoga to Your Team</h2>
+            <p>Serving corporate offices in NYC and surrounding areas.</p>
+            <a href="mailto:misaykasana@gmail.com">Schedule a Consultation</a>
+        </section>
+        <section class="yoga2">
+            <div class="yoga2img">
+                <p>Restore Focus &#9702; Release Tension &#9702; Reclaim Balance.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        © 2026 Misaykasana  | Serving NYC & NJ | Phone: (973) 382-3793
+    </footer>
+</body>
+</html>
