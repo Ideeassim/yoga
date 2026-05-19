@@ -211,7 +211,13 @@ body {
 .mob-text{
     display: none;
 }
-        footer {
+.gradient-text{
+    background: linear-gradient(135deg, #f8cdda, #7ed6df);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
             text-align: center;
             padding: 40px;
             background: #f3e8f5;
@@ -275,6 +281,7 @@ body {
     .mob-text{
         display: block;
         font-size: 1em !important;
+        
             }
             .desk-text{
                 display: none;
@@ -342,8 +349,8 @@ body {
         </section>
         <section class="yoga2">
             <div class="yoga2img">
-                <p class="desk-text">Restore Focus &#9702; Release Tension &#9702; Reclaim Balance.</p>
-                <p class="mob-text">Restore Focus <br> Release Tension<br>Reclaim Balance</p>
+                <p class="desk-text gradient-text">Restore Focus &#9702; Release Tension &#9702; Reclaim Balance.</p>
+                <p class="mob-text gradient-text">Restore Focus <br> Release Tension<br>Reclaim Balance</p>
             </div>
         </section>
     </div>
