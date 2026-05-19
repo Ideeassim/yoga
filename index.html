@@ -208,6 +208,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+.mob-text{
+    display: none;
+}
         footer {
             text-align: center;
             padding: 40px;
@@ -234,9 +237,47 @@ body {
             }
             .corporate-desk{
                 flex-direction: column;
+                padding: 0px 0px;
             }
             .container{
-                padding: 0 15px;
+                padding: 0 20px;
+                border: solid pink;
+               justify-content: center;
+               align-items: center;
+            }
+            .container>section>h2{
+                text-align: center;
+            }
+            .yoga1{
+                border: solid red;
+                width: 100%;
+            }
+            .corporate-text{
+                width: 100%;
+                text-align: center;
+            }
+            .services{
+        grid-template-columns: 1fr;
+    }
+    .card h3{
+        text-align: center;
+    }
+    .card p{
+        text-align: center;
+    }
+    .cta>h2{
+        font-size: 2.2em !important;
+        border: solid red;
+    }
+    .yoga2img{
+        background-image: url(./assets/mobile-img.png);
+    }
+    .mob-text{
+        display: block;
+        font-size: 1em !important;
+            }
+            .desk-text{
+                display: none;
             }
         }
     </style>
@@ -301,7 +342,8 @@ body {
         </section>
         <section class="yoga2">
             <div class="yoga2img">
-                <p>Restore Focus &#9702; Release Tension &#9702; Reclaim Balance.</p>
+                <p class="desk-text">Restore Focus &#9702; Release Tension &#9702; Reclaim Balance.</p>
+                <p class="mob-text">Restore Focus <br> Release Tension<br>Reclaim Balance</p>
             </div>
         </section>
     </div>
